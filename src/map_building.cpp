@@ -105,6 +105,7 @@ void Undistort_img(Mat map1, Mat map2, char *path)
 	if (img1.empty()) cout << "Cannot open the image" << endl;
 	
 }*/
+// 这里为啥写的是这个呀 ？？？
 void loadCalibrationData(cv::Mat &R_rect_00,cv::Mat &RT) {
     RT.at<double>(0, 0) = 7.967514e-03;
     RT.at<double>(0, 1) = -9.999679e-01;
